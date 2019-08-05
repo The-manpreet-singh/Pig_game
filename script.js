@@ -19,8 +19,31 @@ init();
 }
 btn();*/
 
-
-
+document.querySelector('.btn-roll').addEventListener('click', function(){
+	if(gamePlaying){
+		//1. random number
+	var dice =Math.floor(Math.random()*6)+1;
+	
+	//2. Display the result 
+	var diceDom=document.querySelector('.dice');
+	diceDom.style.display='block';
+	diceDom.src='dice-'+dice +'.png';
+	
+	//3. update the round score If the rolled number war not a 1;
+	if(dice !== 1){
+		//add score
+		roundScore += dice;
+		document.querySelector('#current-' + activePlayer).textContent=roundScore;
+	}else{
+		//next player
+		
+		nextPlayer();
+		
+	}
+	
+	}
+	
+});
 
 
 document.querySelector('.btn-new').addEventListener('click', init);
