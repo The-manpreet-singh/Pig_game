@@ -1,7 +1,7 @@
 # Pig_game
 
-I created a Pig_game app. I'm going to use JavaScript, HTML5, CSS3.
+I created a Pig_game app. I'm going to use JavaScript, HTML5, CSS3, animations and trasitions.
 
-### [Live Site](https://burger-app-by-manpreet.netlify.app/)
+### [Live Site](https://manpreet-singh10196.github.io/Pig_game/)
 
-Live URL1:https://burger-app-by-manpreet.netlify.app/
+Live URL1: https://manpreet-singh10196.github.io/Pig_game/
