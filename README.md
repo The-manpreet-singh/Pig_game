@@ -1,6 +1,6 @@
 # Pig_game
 
-I created a Pig_game app. I'm going to use JavaScript, HTML5, CSS3, animations and trasitions.
+I created a Pig_game app. I'm going to use JavaScript, HTML5, CSS3, animations and trasitions. Two players play this game.
 
 ### [Live Site](https://the-manpreet-singh.github.io/Pig_game/)
 
